@@ -2,6 +2,12 @@ package cycle_7;
 
 import java.util.Scanner;
 
+/**
+ * Задача №8_ Циклы
+ * Напишите программу, где пользователь вводит любое целое положительное число n.
+ * А программа суммирует все нечетные числа от 1 до введенного пользователем числа n.
+ */
+
 public class Cycle2 {
     public static void main (String [] args){
         double sum=0;
