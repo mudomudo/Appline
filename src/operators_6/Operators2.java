@@ -22,22 +22,27 @@ public class Operators2 {
         System.out.print("введите арифметическое действие: ");
         String z = scanner.next();
         //калькулятор
-        switch(z) {
-            case "+":
-                System.out.print(x+y);
-                break;
-            case "-":
-                System.out.print(x-y);
-                break;
-            case "*":
-                System.out.print(x*y);
-                break;
-            case "/":
-                System.out.print(x/y);
-                break;
-            default:
-                System.out.print("действие невозможно, введите одну из доступных операций: +, -, *, /");
-                break;
+            switch (z) {
+                case "+":
+                    System.out.print(x + y);
+                    break;
+                case "-":
+                    System.out.print(x - y);
+                    break;
+                case "*":
+                    System.out.print(x * y);
+                    break;
+                case "/":
+                    if(y!=0) {
+                        System.out.print(x / y);
+                    }else {
+                        System.out.print("На ноль делить нельзя!");
+                    }
+                    break;
+                default:
+                    System.out.print("действие невозможно, введите одну из доступных операций: +, -, *, /");
+                    break;
+            }
         }
-    }
+
 }
