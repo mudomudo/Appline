@@ -23,14 +23,8 @@ public class Cycle4 {
                 array[i][j] = scan.nextDouble();
             }
         }
-        for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array[i].length; j++)
-            {if (i >= 1){
-                break;
-            }
-                System.out.print(array[i][j]*3+" ");
-            }
-            System.out.println();
-        }
+       for (int j =0; j < array[0].length; j++){
+           System.out.println(array[0][j] * 3 + " ");
+       }
     }
 }

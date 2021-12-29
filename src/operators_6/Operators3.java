@@ -42,12 +42,13 @@ public class Operators3 {
                 switch (distance){
                     case 1:
                         System.out.println("метры - " + z);
-                        System.out.println("мили - " + z*0.0006);
+                        //System.out.println("мили - " + z*0.0006);
+                        System.out.println("мили - " + z/ 1609);
                         System.out.println("ярды - " + z*1.094);
                         System.out.println("фут - " + z*3.281);
                         break;
                     case 2:
-                        System.out.println("метры - " + z/0.0006);
+                        System.out.println("метры - " + z * 1609);
                         System.out.println("мили - " + z);
                         System.out.println("ярды - " + z*1760);
                         System.out.println("фут - " + z*5280);

@@ -14,10 +14,9 @@ public class Cycle2 {
         Scanner scan = new Scanner(System.in);
         System.out.println("Введите любое целое положительное число: ");
         double positiveNumber = scan.nextDouble();
-        for(int i =0;i < positiveNumber; i++){
-            if (i%2!=0){
+        for(int i =0;i < positiveNumber; i= i + 2){
                 sum = sum +i;
-            }
+
         }
         System.out.println("Cумма всех нечетные чисел от 1 до введенного числа: " + sum);
     }

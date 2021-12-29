@@ -31,7 +31,7 @@ public class Cycle3 {
             sum= sum+array[i];
         }
         average = sum/array.length;
-        //System.out.println("Среднее арифметическое: " + average);
+        System.out.println("Среднее арифметическое: " + average);
         System.out.print("Итоговый массив:{ ");
         for (int i =0; i<array.length;i++)
         {

@@ -25,6 +25,10 @@ public class FinalTask2 {
 
         char[] equation = line.toCharArray();
         int x = line.indexOf('x');
+        if (x == -1){
+            System.out.println("В уравнении нет неизвестного. Повторите ввод.");
+            System.exit(0);
+        }
 
         int result=0;
         int a = Character.getNumericValue(equation[0]);

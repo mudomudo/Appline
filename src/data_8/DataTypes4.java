@@ -1,5 +1,6 @@
 package data_8;
 
+import java.util.Arrays;
 import java.util.Random;
 
 /**
@@ -29,7 +30,7 @@ public class DataTypes4 {
         //вывод в консоль максимального и минимального элементов
         int max = someArray[0];
         int min = someArray[0];
-        for (int k=0;k<someArray.length;k++){
+        for (int k=1;k<someArray.length;k++){
             max = Math.max(max,someArray[k]);
             min = Math.min(min,someArray[k]);
         }
@@ -40,4 +41,5 @@ public class DataTypes4 {
         System.out.print("Наибольший элемент по модулю: ");
         System.out.println(Math.max(Math.abs(max),Math.abs(min)));
     }
+
 }

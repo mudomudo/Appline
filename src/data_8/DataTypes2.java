@@ -22,7 +22,7 @@ public class DataTypes2 {
         boolean check_1 = str.contains("Java");
         boolean check_2 = str.startsWith("I like");
         boolean check_3 = str.endsWith("!!!");
-        if (check_1&check_2&check_3){
+        if (check_1 && check_2 && check_3){
             System.out.println(str.toUpperCase());
         }
         String strNew = str.replace('a','o');
